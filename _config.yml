@@ -45,6 +45,3 @@ exclude:
 # Site metadata
 github_username: AgnosticDBA
 repository: "AgnosticDBA/devin-ai-wiki"
-
-# Footer
-footer_content: "This documentation is maintained by AgnosticDBA as part of the DevOps learning resources."
