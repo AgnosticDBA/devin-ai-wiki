@@ -1,7 +1,7 @@
 # GitHub Pages Configuration for Devin Wiki
 
 # Site settings
-title: "Devin AI Wiki for DevOps"
+title: "Devin AI DevOps Documentation"
 description: "Comprehensive documentation for using Devin AI with DevOps workflows, Infrastructure as Code, and OpenStack automation"
 baseurl: "/devin-ai-wiki"
 url: "https://agnosticdba.github.io"
