@@ -3,7 +3,7 @@
 # Site settings
 title: "Devin AI Wiki for DevOps"
 description: "Comprehensive documentation for using Devin AI with DevOps workflows, Infrastructure as Code, and OpenStack automation"
-baseurl: ""
+baseurl: "/devin-ai-wiki"
 url: "https://agnosticdba.github.io"
 
 # Build settings
@@ -11,41 +11,17 @@ markdown: kramdown
 highlighter: rouge
 theme: minima
 
-# Kramdown settings
+# Kramdown settings (GitHub Pages compatible)
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
 
-# Collections
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:name/
-
-# Navigation
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Documentation"
-    url: "/docs/"
-  - title: "Essential Guidelines"
-    url: "/docs/devin-essentials/"
-  - title: "Onboarding"
-    url: "/docs/onboarding-devin/"
-  - title: "Working with Devin"
-    url: "/docs/working-with-devin/"
-  - title: "DevOps Use Cases"
-    url: "/docs/devops-use-cases/"
-  - title: "Integrations"
-    url: "/docs/integrations/"
-
-# Plugins
+# Plugins (GitHub Pages compatible only)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -67,24 +43,6 @@ exclude:
   - "*.tfvars"
   - "*.tfstate"
 
-# Include
-include:
-  - _pages
-
-# Default layouts
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      path: "docs"
-      type: "pages"
-    values:
-      layout: "page"
-      sidebar: true
-
 # Site metadata
 author:
   name: "AgnosticDBA"
@@ -92,30 +50,7 @@ author:
 
 # Social links
 github_username: AgnosticDBA
-repository: "AgnosticDBA/devops101-terraform-ansible-openstack"
-
-# SEO settings
-logo: "/assets/images/logo.png"
-social:
-  name: "Devin AI DevOps Wiki"
-  links:
-    - "https://github.com/AgnosticDBA/devops101-terraform-ansible-openstack"
-
-# Analytics (optional)
-google_analytics: ""
-
-# Comments (optional)
-disqus:
-  shortname: ""
-
-# Search
-search_enabled: true
-search_tokenizer_separator: /[\s\-/]+/
+repository: "AgnosticDBA/devin-ai-wiki"
 
 # Footer
 footer_content: "This documentation is maintained as part of the AgnosticDBA DevOps learning resources."
-
-# Custom CSS
-sass:
-  sass_dir: _sass
-  style: compressed
