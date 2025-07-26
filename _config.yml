@@ -44,11 +44,8 @@ exclude:
   - "*.tfstate"
 
 # Site metadata
-author: "AgnosticDBA"
-
-# Social links
 github_username: AgnosticDBA
 repository: "AgnosticDBA/devin-ai-wiki"
 
 # Footer
-footer_content: "This documentation is maintained as part of the AgnosticDBA DevOps learning resources."
+footer_content: "This documentation is maintained by AgnosticDBA as part of the DevOps learning resources."
