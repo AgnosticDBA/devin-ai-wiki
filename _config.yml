@@ -44,9 +44,7 @@ exclude:
   - "*.tfstate"
 
 # Site metadata
-author:
-  name: "AgnosticDBA"
-  email: "peter@agnosticdba.com"
+author: "AgnosticDBA"
 
 # Social links
 github_username: AgnosticDBA
