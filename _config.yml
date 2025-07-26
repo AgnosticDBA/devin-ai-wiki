@@ -9,7 +9,6 @@ url: "https://agnosticdba.github.io"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
 
 # Kramdown settings (GitHub Pages compatible)
 kramdown:
@@ -21,11 +20,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
 
-# Plugins (GitHub Pages compatible only)
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+# Minimal configuration - no plugins
 
 # Exclude from processing
 exclude:
@@ -44,13 +39,5 @@ exclude:
   - "*.tfstate"
 
 # Site metadata
-author:
-  name: "AgnosticDBA"
-  email: "peter@agnosticdba.com"
-
-# Social links
 github_username: AgnosticDBA
 repository: "AgnosticDBA/devin-ai-wiki"
-
-# Footer
-footer_content: "This documentation is maintained as part of the AgnosticDBA DevOps learning resources."
